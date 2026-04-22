@@ -1,0 +1,1 @@
+/WAVE/apps/el8/eb/software/GCCcore/12.3.0/bin/c++ -O3 -DNDEBUG "CMakeFiles/llama-gemma3-cli.dir/deprecation-warning.cpp.o" -o ../../bin/llama-gemma3-cli 

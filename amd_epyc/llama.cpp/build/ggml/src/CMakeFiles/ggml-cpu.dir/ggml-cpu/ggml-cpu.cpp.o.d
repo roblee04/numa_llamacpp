@@ -1,0 +1,245 @@
+ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o: \
+ /WAVE/users2/unix/rblee/numa_llamacpp/amd_epyc/llama.cpp/ggml/src/ggml-cpu/ggml-cpu.cpp \
+ /usr/include/stdc-predef.h \
+ /WAVE/users2/unix/rblee/numa_llamacpp/amd_epyc/llama.cpp/ggml/src/../include/ggml-backend.h \
+ /WAVE/users2/unix/rblee/numa_llamacpp/amd_epyc/llama.cpp/ggml/src/../include/ggml.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/stdbool.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/stddef.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
+ /usr/include/features.h /usr/include/features-time64.h \
+ /usr/include/bits/wordsize.h /usr/include/bits/timesize.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/long-double.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/time64.h /usr/include/bits/wchar.h \
+ /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
+ /usr/include/stdio.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/stdarg.h \
+ /usr/include/bits/types/__fpos_t.h /usr/include/bits/types/__mbstate_t.h \
+ /usr/include/bits/types/__fpos64_t.h /usr/include/bits/types/__FILE.h \
+ /usr/include/bits/types/FILE.h /usr/include/bits/types/struct_FILE.h \
+ /usr/include/bits/types/cookie_io_functions_t.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/floatn.h \
+ /usr/include/bits/floatn-common.h /usr/include/bits/stdio.h \
+ /WAVE/users2/unix/rblee/numa_llamacpp/amd_epyc/llama.cpp/ggml/src/../include/ggml-alloc.h \
+ /WAVE/users2/unix/rblee/numa_llamacpp/amd_epyc/llama.cpp/ggml/src/./ggml-backend-impl.h \
+ /WAVE/users2/unix/rblee/numa_llamacpp/amd_epyc/llama.cpp/ggml/src/../include/ggml-cpu.h \
+ /WAVE/users2/unix/rblee/numa_llamacpp/amd_epyc/llama.cpp/ggml/src/ggml-cpu/repack.h \
+ /WAVE/users2/unix/rblee/numa_llamacpp/amd_epyc/llama.cpp/ggml/src/./ggml-common.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/cstdint \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/x86_64-pc-linux-gnu/bits/c++config.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/x86_64-pc-linux-gnu/bits/os_defines.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/pstl/pstl_config.h \
+ /WAVE/users2/unix/rblee/numa_llamacpp/amd_epyc/llama.cpp/ggml/src/ggml-cpu/traits.h \
+ /WAVE/users2/unix/rblee/numa_llamacpp/amd_epyc/llama.cpp/ggml/src/ggml-cpu/ggml-cpu-impl.h \
+ /WAVE/users2/unix/rblee/numa_llamacpp/amd_epyc/llama.cpp/ggml/src/./ggml-impl.h \
+ /WAVE/users2/unix/rblee/numa_llamacpp/amd_epyc/llama.cpp/ggml/src/../include/gguf.h \
+ /usr/include/assert.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/math.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/cmath \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/cpp_type_traits.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/ext/type_traits.h \
+ /usr/include/math.h /usr/include/bits/math-vector.h \
+ /usr/include/bits/libm-simd-decl-stubs.h \
+ /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
+ /usr/include/bits/fp-fast.h \
+ /usr/include/bits/mathcalls-helper-functions.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
+ /usr/include/bits/iscanonical.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/std_abs.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/bits/types/locale_t.h \
+ /usr/include/bits/types/__locale_t.h /usr/include/sys/types.h \
+ /usr/include/bits/types/clock_t.h /usr/include/bits/types/clockid_t.h \
+ /usr/include/bits/types/time_t.h /usr/include/bits/types/timer_t.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/endianness.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/uintn-identity.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/types/sigset_t.h \
+ /usr/include/bits/types/__sigset_t.h \
+ /usr/include/bits/types/struct_timeval.h \
+ /usr/include/bits/types/struct_timespec.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/bits/thread-shared-types.h \
+ /usr/include/bits/pthreadtypes-arch.h \
+ /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
+ /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib-bsearch.h /usr/include/bits/stdlib-float.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/specfun.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/stl_algobase.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/functexcept.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/exception_defines.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/ext/numeric_traits.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/stl_pair.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/type_traits \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/move.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/utility.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/stl_iterator_base_types.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/stl_iterator_base_funcs.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/concept_check.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/debug/assertions.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/stl_iterator.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/ptr_traits.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/debug/debug.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/predefined_ops.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/limits \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/tr1/gamma.tcc \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/tr1/special_function_util.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/tr1/bessel_function.tcc \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/tr1/beta_function.tcc \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/tr1/ell_integral.tcc \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/tr1/exp_integral.tcc \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/tr1/hypergeometric.tcc \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/tr1/legendre_function.tcc \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/tr1/modified_bessel_func.tcc \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/tr1/poly_hermite.tcc \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/tr1/poly_laguerre.tcc \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/tr1/riemann_zeta.tcc \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/stdlib.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/cstdlib \
+ /usr/include/string.h /usr/include/strings.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/array \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/compare \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/initializer_list \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/range_access.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/vector \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/allocator.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/x86_64-pc-linux-gnu/bits/c++allocator.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/new_allocator.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/new \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/exception.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/memoryfwd.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/stl_construct.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/stl_uninitialized.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/ext/alloc_traits.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/alloc_traits.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/stl_vector.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/stl_bvector.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/functional_hash.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/hash_bytes.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/refwrap.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/invoke.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/stl_function.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/backward/binders.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/vector.tcc \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/immintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/x86gprintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/ia32intrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/adxintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/bmiintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/bmi2intrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/cetintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/cldemoteintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/clflushoptintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/clwbintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/clzerointrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/enqcmdintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/fxsrintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/lzcntintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/lwpintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/movdirintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/mwaitintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/mwaitxintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/pconfigintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/popcntintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/pkuintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/rdseedintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/rtmintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/serializeintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/sgxintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/tbmintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/tsxldtrkintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/uintrintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/waitpkgintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/wbnoinvdintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/xsaveintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/xsavecintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/xsaveoptintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/xsavesintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/xtestintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/hresetintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/mmintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/xmmintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/mm_malloc.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/emmintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/pmmintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/tmmintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/smmintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/wmmintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/avxintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/avxvnniintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/avx2intrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/avx512fintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/avx512erintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/avx512pfintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/avx512cdintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/avx512vlintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/avx512bwintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/avx512dqintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/avx512vlbwintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/avx512vldqintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/avx512ifmaintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/avx512ifmavlintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/avx512vbmiintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/avx512vbmivlintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/avx5124fmapsintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/avx5124vnniwintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/avx512vpopcntdqintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/avx512vbmi2intrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/avx512vbmi2vlintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/avx512vnniintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/avx512vnnivlintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/avx512vpopcntdqvlintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/avx512bitalgintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/avx512vp2intersectintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/avx512vp2intersectvlintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/avx512fp16intrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/avx512fp16vlintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/shaintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/fmaintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/f16cintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/gfniintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/vaesintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/vpclmulqdqintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/avx512bf16vlintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/avx512bf16intrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/amxtileintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/amxint8intrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/amxbf16intrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/prfchwintrin.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/keylockerintrin.h \
+ /WAVE/users2/unix/rblee/numa_llamacpp/amd_epyc/llama.cpp/ggml/src/ggml-cpu/amx/amx.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/cctype \
+ /usr/include/ctype.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/string \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/stringfwd.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/char_traits.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/postypes.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/cwchar \
+ /usr/include/wchar.h /usr/include/bits/types/wint_t.h \
+ /usr/include/bits/types/mbstate_t.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/localefwd.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/x86_64-pc-linux-gnu/bits/c++locale.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/clocale \
+ /usr/include/locale.h /usr/include/bits/locale.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/iosfwd \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/ostream_insert.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/cxxabi_forced.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/basic_string.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/string_view \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/string_view.tcc \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/ext/string_conversions.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/cstdio \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/cerrno \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/bits/types/error_t.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/charconv.h \
+ /WAVE/apps2/el8/eb/software/GCCcore/12.3.0/include/c++/12.3.0/bits/basic_string.tcc \
+ /WAVE/users2/unix/rblee/numa_llamacpp/amd_epyc/llama.cpp/ggml/src/ggml-cpu/numa-buffer.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/environments.h /usr/include/bits/confname.h \
+ /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
+ /usr/include/bits/unistd_ext.h /usr/include/linux/close_range.h

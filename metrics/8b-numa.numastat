@@ -1,0 +1,17 @@
+==== numastat snapshot at t+20s ====
+
+Per-node process memory usage (in MBs) for PID 2191025 (llama-bench)
+                           Node 0          Node 1           Total
+                  --------------- --------------- ---------------
+Huge                         0.00            0.00            0.00
+Heap                         7.62           50.73           58.34
+Stack                        0.07            0.01            0.08
+Private                   8197.71         8204.12        16401.83
+----------------  --------------- --------------- ---------------
+Total                     8205.39         8254.86        16460.25
+
+==== /proc/2191025/status NUMA-relevant ====
+VmRSS:	16855300 kB
+VmData:	18448780 kB
+Cpus_allowed_list:	0
+Mems_allowed_list:	0-1

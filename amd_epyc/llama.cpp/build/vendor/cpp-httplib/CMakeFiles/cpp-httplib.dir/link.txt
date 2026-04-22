@@ -1,0 +1,2 @@
+/WAVE/apps/el8/eb/software/binutils/2.40-GCCcore-12.3.0/bin/ar qc libcpp-httplib.a "CMakeFiles/cpp-httplib.dir/httplib.cpp.o"
+/WAVE/apps/el8/eb/software/binutils/2.40-GCCcore-12.3.0/bin/ranlib libcpp-httplib.a

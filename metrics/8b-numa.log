@@ -1,0 +1,24 @@
+==== 8b-numa ====
+date:              Mon Apr 20 22:36:13 PDT 2026
+GGML_NUMA_REPLICATE=1
+GGML_NUMA_BUFFER_GB=8
+model=/WAVE/users2/unix/rblee/numa_llamacpp/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf
+args: --mmap 0 -t 192 -p 512 -n 128,512,2048 -r 3
+
+[numa-buffer] initializing dual-NUMA allocator: 8 GiB per node
+[numa-alloc] faulting in 8192 MiB on node 0...
+[numa-alloc] faulting in 8192 MiB on node 1...
+[numa-alloc] ready: 8192 MiB x 2 buffers (node0=0x7f9889200000, node1=0x7f9689200000)
+[numa-alloc] replicating 4685 MiB from node 0 to node 1...
+[numa-alloc] replication complete
+[numa-replicate] threadpool: 192-thread strict pin across physical cores 0..191
+| model                          |       size |     params | backend    | threads | mmap |            test |                  t/s |
+| ------------------------------ | ---------: | ---------: | ---------- | ------: | ---: | --------------: | -------------------: |
+| llama 8B Q4_K - Medium         |   4.58 GiB |     8.03 B | CPU        |     192 |    0 |           pp512 |       357.30 ± 15.54 |
+| llama 8B Q4_K - Medium         |   4.58 GiB |     8.03 B | CPU        |     192 |    0 |           tg128 |         53.34 ± 0.11 |
+| llama 8B Q4_K - Medium         |   4.58 GiB |     8.03 B | CPU        |     192 |    0 |           tg512 |         53.06 ± 0.03 |
+| llama 8B Q4_K - Medium         |   4.58 GiB |     8.03 B | CPU        |     192 |    0 |          tg2048 |         47.71 ± 0.04 |
+
+build: e365e658f (8851)
+
+exit_code=0

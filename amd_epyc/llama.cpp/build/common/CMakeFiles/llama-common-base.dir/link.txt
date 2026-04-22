@@ -1,0 +1,2 @@
+/WAVE/apps/el8/eb/software/binutils/2.40-GCCcore-12.3.0/bin/ar qc libllama-common-base.a "CMakeFiles/llama-common-base.dir/build-info.cpp.o"
+/WAVE/apps/el8/eb/software/binutils/2.40-GCCcore-12.3.0/bin/ranlib libllama-common-base.a

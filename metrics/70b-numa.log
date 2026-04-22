@@ -1,0 +1,23 @@
+==== 70b-numa ====
+date:              Mon Apr 20 22:49:22 PDT 2026
+GGML_NUMA_REPLICATE=1
+GGML_NUMA_BUFFER_GB=72
+model=/WAVE/users2/unix/rblee/numa_llamacpp/Llama-3.3-70B-Instruct-Q8_0-00001-of-00002.gguf
+args: --mmap 0 -t 192 -p 512 -n 128,512 -r 2
+
+[numa-buffer] initializing dual-NUMA allocator: 72 GiB per node
+[numa-alloc] faulting in 73728 MiB on node 0...
+[numa-alloc] faulting in 73728 MiB on node 1...
+[numa-alloc] ready: 73728 MiB x 2 buffers (node0=0x7fe8d1a00000, node1=0x7fd6d1a00000)
+[numa-alloc] replicating 71494 MiB from node 0 to node 1...
+[numa-alloc] replication complete
+[numa-replicate] threadpool: 192-thread strict pin across physical cores 0..191
+| model                          |       size |     params | backend    | threads | mmap |            test |                  t/s |
+| ------------------------------ | ---------: | ---------: | ---------- | ------: | ---: | --------------: | -------------------: |
+| llama 70B Q8_0                 |  69.82 GiB |    70.55 B | CPU        |     192 |    0 |           pp512 |         75.68 ± 0.03 |
+| llama 70B Q8_0                 |  69.82 GiB |    70.55 B | CPU        |     192 |    0 |           tg128 |          6.71 ± 0.04 |
+| llama 70B Q8_0                 |  69.82 GiB |    70.55 B | CPU        |     192 |    0 |           tg512 |          6.74 ± 0.02 |
+
+build: e365e658f (8851)
+
+exit_code=0

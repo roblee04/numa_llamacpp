@@ -1,0 +1,16 @@
+==== 70b-vanilla ====
+date:              Mon Apr 20 22:40:10 PDT 2026
+GGML_NUMA_REPLICATE=0
+GGML_NUMA_BUFFER_GB=72
+model=/WAVE/users2/unix/rblee/numa_llamacpp/Llama-3.3-70B-Instruct-Q8_0-00001-of-00002.gguf
+args: --mmap 0 -t 192 -p 512 -n 128,512 -r 2
+
+| model                          |       size |     params | backend    | threads | mmap |            test |                  t/s |
+| ------------------------------ | ---------: | ---------: | ---------- | ------: | ---: | --------------: | -------------------: |
+| llama 70B Q8_0                 |  69.82 GiB |    70.55 B | CPU        |     192 |    0 |           pp512 |         47.01 ± 0.60 |
+| llama 70B Q8_0                 |  69.82 GiB |    70.55 B | CPU        |     192 |    0 |           tg128 |          3.84 ± 0.87 |
+| llama 70B Q8_0                 |  69.82 GiB |    70.55 B | CPU        |     192 |    0 |           tg512 |          5.71 ± 0.05 |
+
+build: e365e658f (8851)
+
+exit_code=0

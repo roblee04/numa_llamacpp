@@ -1,0 +1,2 @@
+/WAVE/apps/el8/eb/software/binutils/2.40-GCCcore-12.3.0/bin/ar qc libgguf-model-data.a "CMakeFiles/gguf-model-data.dir/gguf-model-data.cpp.o"
+/WAVE/apps/el8/eb/software/binutils/2.40-GCCcore-12.3.0/bin/ranlib libgguf-model-data.a
